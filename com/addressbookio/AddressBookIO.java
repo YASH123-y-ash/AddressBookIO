@@ -79,7 +79,7 @@ public class AddressBookIO {
     public boolean viewContact() {
         //getting home directory of current working directory=user.dir
         String HOME = System.getProperty("user.dir");
-        String fileName = "AddressBookIO";
+        String fileName = "AddressBookIO.txt";
         Path homePath = Paths.get(HOME);
         if (Files.exists(homePath)) {
             Path filePath = Paths.get(HOME + "/" + fileName);  //getting the path of a file
